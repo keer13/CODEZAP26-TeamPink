@@ -11,7 +11,7 @@ MediShield AI helps elderly and chronic patients who receive prescriptions from 
 
 ## 👥 Team
 
-- **Swathi N** – AI/ML Engineer
+- **Swathi N** – AI Engineer
 - **Keerthana G** – Research & Documentation
 - **Praveen N** – Frontend Developer
 - **Prasanna V** – UI/UX Designer
