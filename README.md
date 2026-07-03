@@ -1,21 +1,21 @@
-# MediShield AI 🚀
+# Medixo 🚀
 
 > AI-powered medication safety platform that prevents harmful drug interactions by securely unifying prescriptions from multiple doctors
 ---
 
 ## 🎯 What It Does
 
-MediShield AI helps elderly and chronic patients who receive prescriptions from multiple doctors by creating a unified digital medication record. Using AI, OCR, and trusted medical knowledge, it detects dangerous drug interactions, duplicate medications, dosage conflicts, and securely shares records with doctors only through patient-approved consent.
+Medixo helps elderly and chronic patients who receive prescriptions from multiple doctors by creating a unified digital medication record. Using AI, OCR, and trusted medical knowledge, it detects dangerous drug interactions, duplicate medications, dosage conflicts, and securely shares records with doctors only through patient-approved consent.
 
 ---
 
 ## 👥 Team
 
 - **Swathi N** – Business Analyst
-- **Keerthana G** – Research & Documentation
+- **Keerthana G** – Designer & Research
 - **Praveen N** – Frontend Developer
 - **Prasanna V** – AI Model
-- **Umaiyaoandiyan B** – Backend Developer
+- **Umaiyaoandiya B** – Backend Developer
 
 ---
 
@@ -50,8 +50,6 @@ npm run server
 npm run dev
 
 
-
-
 # ✨ Features
 
 ✅ Unified Digital Medical Record
@@ -59,6 +57,8 @@ npm run dev
 ✅ AI Drug Interaction Checker
 
 ✅ Duplicate Medicine Detection
+
+✅ Voice Assistance
 
 ✅ Smart Medication Reminder
 
@@ -89,13 +89,6 @@ npm run dev
 - SQLAlchemy
 - JWT Authentication
 
-## AI/ML
-
-- LangChain (RAG)
-- FAISS Vector Database
-- Claude API
-- Tesseract OCR
-- Whisper Speech-to-Text
 
 ## Database
  -MongoDB
@@ -109,21 +102,6 @@ npm run dev
  -JWT Authentication
  -Encrypted Medical Records
 
-
----
-
-## 📌 Problem Statement
-
-Patients, especially elderly individuals, often consult multiple specialists who prescribe medications independently. Since doctors cannot view each other's prescriptions, dangerous drug interactions, duplicate medicines, and dosage errors frequently go unnoticed.
-
----
-
-## 💡 Our Solution
-
-MediShield AI acts as a centralized medication safety platform that securely stores prescriptions, continuously checks all active medicines using AI, alerts patients about potential risks, and allows verified doctors to access records only with patient consent.
-
----
-
 ## 🔒 Privacy & Security
 
 - Patient-controlled OTP-based access
@@ -134,40 +112,43 @@ MediShield AI acts as a centralized medication safety platform that securely sto
 
 ---
 
-## Hackathon Journey
+## 🏆 Hackathon Journey
 
-What We Learned
+### What We Learned
 
-  -Building healthcare AI applications
-  -Integrating LLM with RAG
-  -Drug interaction analysis
-  -OCR for prescription scanning
-  -Secure health data management
-  
-Challenges
-  -Integrating AI with medical knowledge
-  -Detecting medicine interactions accurately
-  -Building a centralized patient record
-  -Managing multiple healthcare modules within hackathon time
-  
-What We're Proud Of
-  -AI-powered medication safety platform
-  -Centralized medical history
-  -Real-world healthcare problem solving
-  -User-friendly interface
-  -Privacy-first architecture
-  
-🔮 Future Scope
- -Hospital Integration (EMR/EHR)
- -Pharmacy Integration
- -Telemedicine Integration
- 
-🤖 AI Tools Used
-ChatGPT – Research, documentation & development support
-JarvisLabs – LLM deployment
-RAG – Professional medical knowledge retrieval
-Figma – UI Design
-Anti Gravity– Code assistance
+- Building healthcare AI applications
+- Integrating LLM with RAG
+- Drug interaction analysis
+- OCR for prescription scanning
+- Secure health data management
+
+### Challenges
+
+- Integrating AI with medical knowledge
+- Detecting medicine interactions accurately
+- Building a centralized patient record
+- Managing multiple healthcare modules within the hackathon time
+
+### What We're Proud Of
+
+- AI-powered medication safety platform
+- Centralized medical history
+- Solving a real-world healthcare problem
+- User-friendly interface
+- Privacy-first architecture
+
+### 🔮 Future Scope
+
+- Hospital Integration (EMR/EHR)
+- Pharmacy Integration
+
+### 🤖 AI Tools Used
+
+- ChatGPT – Research, documentation & development support
+- JarvisLabs – LLM deployment
+- RAG – Professional medical knowledge retrieval
+- Figma – UI design
+- Anti Gravity – UI generation
 
 All AI-generated content was reviewed, validated, and customized by our team.
 
@@ -179,12 +160,6 @@ All AI-generated content was reviewed, validated, and customized by our team.
   -Healthcare professionals who inspired the problem statement
   -WHO Patient Safety Reports
 
-  
-⭐ One-line Project Pitch
-
-"MediShield AI is an intelligent medication safety platform that unifies medical records, detects dangerous drug interactions, prevents medication errors, and empowers patients with AI-driven healthcare assistance."
-
-This README is tailored to your project and is suitable for a hackathon GitHub repository and final submission.
-## 📄 License
+ 
 
 This project was developed as part of a 36-Hour Hackathon.
