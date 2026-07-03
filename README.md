@@ -11,10 +11,10 @@ MediShield AI helps elderly and chronic patients who receive prescriptions from 
 
 ## 👥 Team
 
-- **Swathi N** – AI Engineer
+- **Swathi N** – Business Analyst
 - **Keerthana G** – Research & Documentation
 - **Praveen N** – Frontend Developer
-- **Prasanna V** – UI/UX Designer
+- **Prasanna V** – AI Model
 - **Umaiyaoandiyan B** – Backend Developer
 
 ---
@@ -23,62 +23,54 @@ MediShield AI helps elderly and chronic patients who receive prescriptions from 
 
 ### Prerequisites
 
-- Node.js 18+
-- Python 3.11+
-- PostgreSQL
-- Git
+-React
+-MongoDB
+-Git
+-Python 3.10+
+-API Key (Gemini/OpenAI)
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/MediShield-AI.git
+# Clone Repository
+git clone https://github.com/your-username/medishield-ai.git
 
-# Navigate to project directory
-cd MediShield-AI
+# Open Project
+cd medishield-ai
 
-# Install frontend dependencies
-cd mobile
+# Install Packages
 npm install
 
-# Install backend dependencies
-cd ../backend
-pip install -r requirements.txt
-
-# Create environment file
+# Configure Environment
 cp .env.example .env
 
-# Add your API keys and database credentials
-
 # Start Backend
-uvicorn app.main:app --reload
+npm run server
 
 # Start Frontend
-cd ../mobile
-npm start
-```
+npm run dev
 
-Open the Expo app or emulator to run the application.
 
----
+
 
 # ✨ Features
 
-✅ AI Drug Interaction Detection
+✅ Unified Digital Medical Record
 
-✅ OCR Prescription Scanner
+✅ AI Drug Interaction Checker
 
-✅ Unified Medication History
+✅ Duplicate Medicine Detection
 
-✅ OTP-Based Doctor Access
+✅ Smart Medication Reminder
 
-✅ Smart Medicine Reminders
+✅ AI Medicine Assistant (RAG + LLM)
 
-✅ AI-Powered Medication Safety Reports
+✅ Prescription Scanner (OCR)
 
-✅ Daily Health Monitoring
+✅ doctor Monitoring Dashboard
 
-✅ Downloadable Digital Health Report
+✅ Medical History Sharing
+
+✅ Emergency Medical Information
 
 ---
 
@@ -104,7 +96,20 @@ Open the Expo app or emulator to run the application.
 - Claude API
 - Tesseract OCR
 - Whisper Speech-to-Text
-- 
+
+## Database
+ -MongoDB
+ 
+## AI
+ -LLM (JarvisLabs)
+ -RAG (Professional Medical Books)
+ -OCR
+
+## Security
+ -JWT Authentication
+ -Encrypted Medical Records
+
+
 ---
 
 ## 📌 Problem Statement
@@ -129,16 +134,57 @@ MediShield AI acts as a centralized medication safety platform that securely sto
 
 ---
 
-## 🌍 Future Scope
+## Hackathon Journey
 
-- Integration with Hospital Information Systems (HIS)
-- Wearable device support
-- Voice assistant for elderly users
-- Multi-language support
-- Predictive health risk analysis
+What We Learned
 
----
+  -Building healthcare AI applications
+  -Integrating LLM with RAG
+  -Drug interaction analysis
+  -OCR for prescription scanning
+  -Secure health data management
+  
+Challenges
+  -Integrating AI with medical knowledge
+  -Detecting medicine interactions accurately
+  -Building a centralized patient record
+  -Managing multiple healthcare modules within hackathon time
+  
+What We're Proud Of
+  -AI-powered medication safety platform
+  -Centralized medical history
+  -Real-world healthcare problem solving
+  -User-friendly interface
+  -Privacy-first architecture
+  
+🔮 Future Scope
+ -Hospital Integration (EMR/EHR)
+ -Pharmacy Integration
+ -Telemedicine Integration
+ 
+🤖 AI Tools Used
+ChatGPT – Research, documentation & development support
+JarvisLabs – LLM deployment
+RAG – Professional medical knowledge retrieval
+Figma – UI Design
+Anti Gravity– Code assistance
 
+All AI-generated content was reviewed, validated, and customized by our team.
+
+
+
+🙏 Acknowledgements
+
+  -CODEZAP Hackathon Organizers
+  -Healthcare professionals who inspired the problem statement
+  -WHO Patient Safety Reports
+
+  
+⭐ One-line Project Pitch
+
+"MediShield AI is an intelligent medication safety platform that unifies medical records, detects dangerous drug interactions, prevents medication errors, and empowers patients with AI-driven healthcare assistance."
+
+This README is tailored to your project and is suitable for a hackathon GitHub repository and final submission.
 ## 📄 License
 
 This project was developed as part of a 36-Hour Hackathon.
