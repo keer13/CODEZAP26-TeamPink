@@ -1,0 +1,11 @@
+{
+  "name": "Healthcare AI",
+  "description": "An intelligent health companion for medication safety, adherence tracking, clinician validation, and AI-powered health insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
